@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/wjax"      name="dotnet"/>
 
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
+  <project name="meta-security" remote="yocto" revision="dunfell" path="sources/meta-security"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
   <project name="meta-raspberrypi" remote="rpi" revision="dunfell" path="sources/meta-raspberrypi"/>
   <project name="meta-dotnet-core" remote="dotnet" revision="master" path="sources/meta-dotnet-core"/>
