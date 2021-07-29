@@ -11,4 +11,6 @@ IMAGE_FSTYPES_remove += " rpi-sdimg"
 MENDER_FEATURES_ENABLE_append = " mender-uboot mender-image-sd"
 MENDER_FEATURES_DISABLE_append = " mender-grub mender-image-uefi"
 
+PACKAGECONFIG_pn-curl = "vers krb5 ssl zlib ipv6"
+
 ENABLE_UART = "1"
