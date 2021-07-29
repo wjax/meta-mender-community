@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+  <remote fetch="https://github.com/agherzan"      name="rpi"/>
+  <remote fetch="https://github.com/wjax"      name="dotnet"/>
+
+  <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
+  <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
+  <project name="meta-raspberrypi" remote="rpi" revision="dunfell" path="sources/meta-raspberrypi"/>
+  <project name="meta-dotnet-core" remote="dotnet" revision="master" path="sources/meta-dotnet-core"/>
+
+  <include name="scripts/mender.xml"/>
+
+</manifest>
